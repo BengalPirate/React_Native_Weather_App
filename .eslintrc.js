@@ -5,7 +5,7 @@ module.exports = {
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
         "@react-native-community"
     ],
     "overrides": [
@@ -34,7 +34,7 @@ module.exports = {
         'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx']}],
         'no-use-before-define': [
             'error',
-            { functions: true, classes: true, varaibles: false }
+            { functions: true, classes: true, variables: false }
         ]
     }
 }
